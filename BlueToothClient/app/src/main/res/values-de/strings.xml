@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">THBluetooth</string>
+    <string name="main_dialog_tile">Prompt</string>
+    <string name="main_dialog_content">1. Bitte öffnen Sie zunächst die Einstellungen um eine Anwendung durchzuführen oder hinzuzufügen.\n2. Gerätefunktion: Auf/Ab Funktion erst durch streichen &amp; halten des Enstperrknopfes möglich. Sobald Entsperrknopf losgelassen wird, ist Auf/Ab ohne Funktion.</string>
+    <string name="main_dialog_postivebtn">Sicher</string>
+    <string name="main_setting">Einstellungen</string>
+    <string name="main_title">Anwendung</string>
+    <string name="set_equipment">Geräte</string>
+    <string name="set_equipment_scan">Überprüft </string>
+    <string name="set_equipment_start">Start scanning</string>
+    <string name="set_security">Sicherheit</string>
+    <string name="set_open_fingerpass">Entsperrmuster aktivieren</string>
+    <string name="set_modify_fingerpass">Entsperrmuster ändern</string>
+    <string name="set_fingerpass">Entsperrmuster erstellen</string>
+    <string name="set_close_fingerpass">Entsperrmuster abschalten</string>
+
+    <string name="auth_fingerpass">Entsperrmuster bestätigen</string>
+    <string name="auth_fingerpass_success">Bestätigung erfolgreich </string>
+    <string name="auth_fingerpass_fail">Ungültiges Entsperrmuster</string>
+    <string name="draw_fingerpass">Bitte neues Entsperrmuster erstellen</string>
+    <string name="set_fingerpass_success">Passwort erfolgreich</string>
+    <string name="set_fingerpass_no_equal">Keine Übereinstimmung. Bitte erneut versuchen</string>
+    <string name="set_fingerpass_four_point">Mindestens 4 Punkte erforderlich</string>
+    <string name="set_fingerpass_again">Bitte das Entsperrmuster erneut zeichnen</string>
+
+    <string name="set_common">Allgemein</string>
+    <string name="set_cus_btn">Eigene Einstellungen</string>
+    <string name="set_language">Sprachauswahl</string>
+    <string name="language_ok">Fertig</string>
+
+    <string name="cus_btn_up">Auf</string>
+    <string name="cus_btn_down">Ab</string>
+    <string name="cus_btn_open">Öffnen</string>
+    <string name="cus_btn_close">Beenden</string>
+    <string name="cus_btn_right">Rechts</string>
+    <string name="cus_btn_left">Links</string>
+    <string name="cus_btn_lock">schließen</string>
+    <string name="cus_btn_unlock">freischalten</string>
+    <string name="cus_btn_light">Licht</string>
+    <string name="cus_btn_voice">Alarm</string>
+
+    <string name="scan_blue_no">keine Bluetoothverbindung</string>
+    <string name="set_equipment_stop">Stop Scanning</string>
+
+    <string name="main_connect">verbindet</string>
+    <string name="main_connect_success">Gerät: %1$s erfolgreich verbunden</string>
+    <string name="main_connect_fail">Gerät: %1$s Verbindung fehlgeschlagen</string>
+    <string name="main_disconnect">Gerät: %1$s getrennt</string>
+
+    <string name="draw_old_fingerpass">Bitte zeichnen Sie ihr ursprüngliches Entsperrmuster</string>
+    <string name="fingerpass_lock">Muster freigeschaltet</string>
+    <string name="verify_draw_fingerpass">Bitte zeichnen Sie ihr Entsperrmuster</string>
+
+
+    <string name="confirm">Bestätigen</string>
+    <string name="refused">Verlassen</string>
+    <string name="content">WARNUNG !!!\n\nDas Hydraulikaggregat erzeugt einen Druck von bis zu 300 bar.\nUnter Druck austretendes Hydrauliköl kann zu ernsthaften Verletzungen führen.\nPrüfen Sie daher VOR Wartungs-/Instandhaltungsarbeiten, dass die Leitungen drucklos sind.\nBedienung des Aggregates, sowie Wartungs-/Instandhaltungsarbeiten dürfen nur durch qualifiziertes Personal durchgeführt werden.\nDiese Warnhinweise müssen zwingend beachtet werden.</string>
+
+    <string name="dialog_notice_title">Anleitung Bluetooth Fernbedienung</string>
+
+    <string name="opt_des_how_to_use">Erste Schritte：\n\n1.Zunächst ist sicherzustellen, dass das Hydraulikaggregat fest installiert und „Startklar“ ist.\n2.Bitte stellen Sie zunächst sicher, dass an Ihrem Mobiltelefon Bluetooth eingeschaltet ist. Bluetooth-Version ist 4.0\n3.Durch drücken der Suche Taste (auf der folgenden Seite) starten Sie den Scanvorgang, um eine Bluetoothverbindung zum Hydraulikaggregat herzustellen.\n4.Nachdem die Verbindung hergestellt wurde, ist das Endgerät </string>
+    <string name="opt_app">APP Funktion:\nZu Ihrer Sicherheit:</string>
+    <string name="opt_contniue">Fortsetzen</string>
+
+
+    <string name="lock_dialog_content">Sollten Sie Ihr Entsperrmuster vergessen und/oder Probleme mit der Freischaltung haben, bitte App deinstallieren und neu herunterladen</string>
+</resources>

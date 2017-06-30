@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">THBluetooth</string>
+    <string name="main_dialog_tile">提示</string>
+    <string name="main_dialog_content">1.请先到设置里添加设备或操作设备\n2.操作设备，只有滑动并按住才能操作UP/DOWN按钮，一旦松开此按钮，UP/DOWN按钮立即消失不能操作</string>
+    <string name="main_dialog_postivebtn">确定</string>
+    <string name="main_setting">设置</string>
+    <string name="main_title">操作</string>
+    <string name="set_equipment">设备</string>
+    <string name="set_equipment_scan">扫描设备</string>
+    <string name="set_equipment_start">开始扫描</string>
+    <string name="set_security">安全</string>
+    <string name="set_open_fingerpass">开启手势密码</string>
+    <string name="set_modify_fingerpass">修改手势密码</string>
+    <string name="set_fingerpass">设置手势密码</string>
+    <string name="set_close_fingerpass">关闭手势密码</string>
+
+    <string name="auth_fingerpass">验证手势密码</string>
+    <string name="auth_fingerpass_success">密码验证成功</string>
+    <string name="auth_fingerpass_fail">密码验证失败</string>
+    <string name="draw_fingerpass">请滑动设置新密码</string>
+    <string name="set_fingerpass_success">密码设置成功</string>
+    <string name="set_fingerpass_no_equal">两次密码不一致</string>
+    <string name="set_fingerpass_four_point">请连接至少四个点</string>
+    <string name="set_fingerpass_again">请输入确认密码</string>
+
+    <string name="set_common">通用</string>
+    <string name="set_cus_btn">自定义操作按钮</string>
+    <string name="set_language">语言设置</string>
+    <string name="language_ok">完成</string>
+
+    <string name="cus_btn_up">上</string>
+    <string name="cus_btn_down">下</string>
+    <string name="cus_btn_open">开</string>
+    <string name="cus_btn_close">关</string>
+    <string name="cus_btn_right">右</string>
+    <string name="cus_btn_left">左</string>
+    <string name="cus_btn_lock">锁定</string>
+    <string name="cus_btn_unlock">解锁</string>
+    <string name="cus_btn_light">亮灯</string>
+    <string name="cus_btn_voice">响铃</string>
+
+    <string name="scan_blue_no">蓝牙不可用</string>
+    <string name="set_equipment_stop">停止扫描</string>
+
+    <string name="main_connect">准备连接设备</string>
+    <string name="main_connect_success">设备：%1$s连接成功</string>
+    <string name="main_connect_fail">设备：%1$s连接失败</string>
+    <string name="main_disconnect">设备：%1$s连接断开</string>
+
+    <string name="draw_old_fingerpass">请滑动输入旧密码</string>
+    <string name="fingerpass_lock">手势密码解锁</string>
+    <string name="verify_draw_fingerpass">请滑动输入密码</string>
+
+
+
+    <string name="confirm">确认</string>
+    <string name="refused">拒绝</string>
+    <string name="content">警告 ！！！\n\n该液压动力单元在工作时候能够产生高达300bar(30Mpa)的压力。\n在高压下不正确的操作,维护会导致严重的身体伤害。\n在进行任何维护工作之前，请您检查本机的压力是否已经释放完毕。\n这种动力装置的运行以及维护的工作只能由受过专业培训的操作人员完成。</string>
+
+    <string name="dialog_notice_title">手动蓝牙遥控器</string>
+
+
+
+    <string name="opt_des_how_to_use">如何使用:\n1.请确认液压动力单元正确安装并准备工作。\n2.请确认您的智能手机的蓝牙已经打开。蓝牙版本是4.0。\n3.若要智能手机通过蓝牙，连接到液压动力单元，您必须按下搜索按钮（请参阅下一页）。随后手机会开始扫描接收器。\n4.动力单元和手机连接后，随时可以通过手机操作动力单元</string>
+    <string name="opt_app">APP的操作:\n为了您的安全：</string>
+    <string name="opt_contniue">继续</string>
+    <string name="lock_dialog_content">忘记手势密码，导致无法解锁，请卸载重装</string>
+</resources>
