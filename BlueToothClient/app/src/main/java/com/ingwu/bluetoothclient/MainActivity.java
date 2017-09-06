@@ -71,7 +71,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener,I
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        showNoticeView();
+//        showNoticeView();
         mScreenReceiver = new ScreenLockBoardcast();
         mBtAdapter = BluetoothAdapter.getDefaultAdapter();
         if (mBtAdapter == null) {
@@ -220,7 +220,9 @@ public class MainActivity extends BaseActivity implements View.OnClickListener,I
     @Override
     public void onClick(View v) {
         if(v.getId() == R.id.rel_back){
-            startActivity(new Intent(this,OperationDesActivity.class));
+            Intent intent = new Intent(this,OperationDesActivity.class);
+            intent.putExtra("FROM","MAIN");
+            startActivity(intent);
 //            showDialogView(getResources().getString(R.string.main_dialog_tile),getResources().getString(R.string.main_dialog_content),getResources().getString(R.string.main_dialog_postivebtn));
         }else if(v.getId() == R.id.tv_main_setting){
             startActivity(new Intent(this,SettingActivity.class));

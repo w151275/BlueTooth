@@ -18,7 +18,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name=".SplashActivity"
             android:configChanges="keyboard|orientation|screenSize"
             android:screenOrientation="portrait"
             android:launchMode="singleTask"
@@ -34,6 +34,13 @@
             android:exported="false"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="keyboard|orientation|screenSize"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"/>
+
         <activity
             android:name=".CusOptionBtnActivity"
             android:configChanges="keyboard|orientation|screenSize"
